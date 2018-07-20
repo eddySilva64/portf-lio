@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>São Paulo.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark"> <!--começo do menu-->
+        <div class="container">
+            <a class="navbar-brand h1 mb-0 text-danger" href="#">São Paulo.com</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSite">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Musicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Filmes e Series</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Jogos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Depoimentos</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" id="navdrop">Social</a>
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item text-danger" href="#">Facebook</a>
+                                <a class="dropdown-item text-danger" href="#">Twitter</a>
+                                <a class="dropdown-item text-danger" href="#">Instagram</a>
+                                <a class="dropdown-item text-danger" href="#">Youtube</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <form class="form-inline">
+                        <input class="form-control ml-3 mr-3" type="search" placeholder="Search" arial-label="Search">
+                        <button class="btn btn-outline-success my-sm-0" type="submit">Search</button>
+                    </form>
+
+                </div>
+        </div>            
+    </nav> <!--final do menu -->
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel"> <!-- começo do carrosel -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSite" data-slide-to="1"></li>
+                <li data-target="#carouselSite" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/slide01.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h1>Extra!!!</h1>
+                    <p class="lead">Vitae semper quis lectus nulla. Egestas fringilla phasellus faucibus scelerisque.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/slide02.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h1>São Paulo.com</h1>
+                    <p class="lead" >commodo quis imperdiet massa tincidunt nunc pulvinar.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/slide03.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h1>Você ja viu o que se passa no mundo a fora?</h1>
+                    <p class="lead">Egestas fringilla phasellus faucibus scelerisque.</p>
+                </div>
+            </div>
+
+        </div>
+            <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Avançar</span>
+            </a>
+    </div> <!--final do carousel-->
+
+    <div class="container"> <!--começo do meio da pagina-->
+        <div class="row">
+            <div class="col-12 text-center my-5 bg-dark text-light">
+                <h1 class="display-4">Lorem ipsum dolor</h1>
+                <p>Excepteur sint occaecat cupidatat </p>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class=" col-sm-6 col-md-4 mb-3">
+                <nav id="navbarVertical" class="navbar navbar-dark bg-dark">
+
+                    <nav class="nav nav-pills flex-column">
+
+                         <a class="nav-link" href="#item1">Generate Lorem</a> 
+
+                         <nav class="nav nav-pills flex-column">
+
+                                <a class="nav-link ml-3" href="#item1-1">Velit sed ullamcorper morbi</a>
+
+                                <a class="nav-link ml-3" href="#item1-2"> lorem ullamcorper morbi</a> 
+                         </nav>
+
+                         <a class="nav-link my-2" href="#item2">Lorem</a>
+
+                         <a class="nav-link my-2" href="#item3">Generate Lorem ipsum</a>
+
+                         <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-3" href="#item3-1">lobortis elementum nibh</a>
+
+                                <a class="nav-link ml-3" href="#item3-2">Aliquet risus feugiat</a> 
+                         </nav>
+                    </nav>
+
+                </nav> 
+
+            </div>
+
+            <div class=" col-sm-6 col-md-8"> <!--começo do scrollspy-->
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0"class="scrollspySite">
+
+                    <h4 id="item1">Vel pharetra vel</h4>
+                    <p>Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Tortor posuere ac ut consequat semper viverra nam libero justo</p>
+
+                    <h5 id="item1-1"> Vitae et leo</h5>
+                    <p>hac habitasse platea dictumst quisque sagittis purus sit. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis.</p>
+
+                    <h5 id="item1-2">Nunc faucibus</h5>
+                    <p>lorem donec massa sapien faucibus et molestie ac. Ac turpis egestas integer eget aliquet nibh. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Imperdiet massa tincidunt nunc pulvinar. Mi tempus imperdiet nulla malesuada pellentesque elit. Sit amet</p>
+
+                    <h4 id="item2">Tellus molestie</h4>
+                    <p>Viverra accumsan in nisl nisi scelerisque eu. Ac tortor vitae purus faucibus. Vitae semper quis lectus nulla. Egestas fringilla phasellus faucibus scelerisque. Morbi blandit cursus risus at ultrices mi. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse. Arcu vitae elementum curabitur vitae.</p>
+
+                    <h4 id="item3"> Cras sed felis</h4>
+                    <p>Diam vel quam elementum pulvinar etiam non quam. Est velit egestas dui id ornare arcu. Nullam eget felis eget nunc lobortis mattis aliquam. Id ornare arcu odio ut sem nulla pharetra diam. Convallis convallis tellus id interdum.</p>
+
+                    <h5 id="item3-1"> Amet mauris</h5>
+                    <p>Diam vel quam elementum pulvinar etiam non quam. Est velit egestas dui id ornare arcu. Nullam eget felis eget nunc lobortis mattis aliquam. Id ornare arcu odio ut sem nulla pharetra diam. Convallis convallis tellus id interdum.</p>
+
+                    <h5 id="item3-2">Risus ultricies</h5>
+                    <p>Non blandit massa enim nec dui nunc mattis. Tellus molestie nunc non blandit. Vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Viverra accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum tempus. Non diam phasellus vestibulum lorem sed risus ultricies.</p>
+                </div>
+            </div> <!--final do scrollspy-->
+
+        </div>
+
+        <div class="row justify-content-sm text-center "> <!--começo do card-->
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/cardgame.jpg" alt="E3 2018">
+                    <div class="card-body">
+                        <h4 class="crd-title">E3 2018</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Olha o que vem de novo para você</h6>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Per te summo saepe. Et vel odio sint elitr. Ius ullum graecis qualisque no, at per.</li>
+                        <li class="list-group-item">ad usu iudico consulatu. Cu sale vituperata mei.</li>
+                    </ul>
+                    <div class="card-body">   
+                        <a class="card-link" href="#">Veja Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 ">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/cardworld.jpg" alt="Noticias do mundo">
+                    <div class="card-body">
+                        <h4 class="crd-title">Noticias Mundiais</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Saiba agora o que acontece la fora </h6>
+                    </div>    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">pulvinar neque laoreet suspendisse interdum.</li>
+                        <li class="list-group-item">utent dolores oportere mei ex. Nisl suscipiantur.</li>
+                    </ul>
+                    <div class="card-body">   
+                        <a class="card-link" href="#">Veja Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/cardbrazil.jpg" alt="Ultimas Noticias">
+                   <div class="card-body">
+                        <h4 class="crd-title">Noticias Nacionais</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Saiba o que acontece em solo nacional</h6>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">At vix diam case illud, nihil sapientem signiferumque cu vel.</li>
+                        <li class="list-group-item">eu eum, sed at augue paulo. Ne utroque postulant eam, an usu adhuc debitis, partem populo efficiantur ad sed.</li>
+                    </ul>    
+                    <div>
+                        <a class="card-link" href="#">Veja Mais</a>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!--final do card-->
+
+    </div> <!--final do meio da pagina-->
+
+    
+
+    <div class="row">
+        <div class="col-12 mb-3"><hr></div>  
+
+        <div class="col-sm-4 text-center">
+            <h3>São Paulo.com</h3>
+            <p>Nullam eget felis eget nunc lobortis mattis aliquam. Id ornare arcu odio ut sem nulla pharetra diam. Convallis convallis tellus id interdum.</p>
+            <p></p>
+        </div>
+
+        <div class="col-sm-4 text-center">
+                <h3>Desenvolvedor</h3>
+                <p>Edgar Silva do Nascimento</p>
+        </div>
+
+        <div class="col-sm-4 text-center">
+                <h3></h3>
+                <p>Edgar Silva do Nascimento</p>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>    
+</body>
+</html>
